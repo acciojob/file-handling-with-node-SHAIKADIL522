@@ -1,0 +1,27 @@
+{
+  "name": "file-handling-with-node",
+  "version": "1.0.0",
+  "description": "Starter package.json template",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest 2> output.txt --forceExit  --detectOpenHandles",
+    "start": "node main.js &"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acciojob/file-handling-with-node.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acciojob/file-handling-with-node/issues"
+  },
+  "homepage": "https://github.com/acciojob/file-handling-with-node#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "csv-parser": "^3.0.0"
+  }
+}
